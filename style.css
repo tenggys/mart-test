@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 .disble {
     display: none;
 }
@@ -49,6 +51,7 @@
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 15px;
+    border-radius: 4px 4px 0 0;
     background: #E8EBF3;
 }
 
@@ -101,14 +104,17 @@
 }
 
 .box-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
     background: #FFFFFF;
     padding-top: 20px;
     padding-bottom: 32px;
+    border-radius: 0 0 4px 4px;
 }
 
+.flex-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
 
 .card {
     width: 100px;
