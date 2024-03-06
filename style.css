@@ -4,10 +4,19 @@
     box-sizing: border-box;
 }
 
+.disble {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
 .container {
     max-width: 332px;
     margin: 0 auto;
 }
+
 
 .open-button {
     position: absolute;
@@ -23,22 +32,14 @@
     color: #000000;
 }
 
-.disble {
-    display: none;
-}
-
-.show {
-    display: block;
-}
-
 .box-contet {
     width: 552px;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 4px;
-    box-shadow: 0px 4px 30px 0px #00000040;
+    box-shadow: 0px 4px 30px 0px #00000040;*/
 }
 
 .top {
@@ -157,6 +158,11 @@
     }
 
     .container {
-        max-width: 216px;
+        max-width: 100px;
+    }
+
+    .box-contet {
+        top: 0;
+        transform: translate(-50%, 0);
     }
 }
