@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 332px;
+    margin: 0 auto;
+}
+
+.open-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 30px 0px #00000040;
+    padding: 12px 56px;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.disble {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.box-contet {
+    width: 552px;
+    height: 467px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 4px;
+    box-shadow: 0px 4px 30px 0px #00000040;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    background: #E8EBF3;
+}
+
+.close-button {
+    width: 8px;
+    height: 8px;
+    border-radius: 7px;
+    background: #E85162;
+    border: none;
+    cursor: pointer;
+}
+
+.top__yelow {
+    width: 8px;
+    height: 8px;
+    border-radius: 7px;
+    background: #F29B3D;
+}
+
+.top__green {
+    width: 8px;
+    height: 8px;
+    border-radius: 7px;    
+    background: #40AB55;
+}
+
+.info {
+    background: #DAE0E4;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.info-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info__title {
+    width: 114px;
+    height: 15px;
+    background: #C5CBCF;
+    margin-bottom: 11px;
+}
+
+.info__subtitle {
+    width: 41px;
+    height: 15px;
+    background: #C5CBCF;
+}
+
+.box-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    background: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 32px;
+}
+
+
+.card {
+    width: 100px;
+}
+
+.card__img {
+    width: 100%;
+    height: 100px;
+    background: #DAE0E4;
+    margin-bottom: 12px;
+    border-radius: 4px
+}
+
+.card__text {
+    height: 15px;
+    background: #C6CACD;
+    border-radius: 4px;
+}
+
+.card__text_width-one {
+    width: 41px;
+}
+
+.card__text_width-two {
+    width: 88px;
+}
+
+.card__text_width-free {
+    width: 67px;
+}
+
+.card__text_width-four {
+    width: 35px;
+}
+
+.card__text_width-five {
+    width: 67px;
+}
+
+.card__text_width-six {
+    width: 35px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .box-contet {
+        width: 400px;
+    }
+}
